@@ -1,5 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">MAD_Practical7_20012021053</string>
     <string name="app_title">Alarm App - 20012021053</string>
     <string name="template_title1">Create Alarm Time</string>
     <string name="template_title2">By Pressing buttons, Alarms can be created and cancelled</string>
