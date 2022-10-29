@@ -8,8 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 
-    <color name="modeColor">#FF000000</color>
-    <color name="drawableModeColor">#FFFFFFFF</color>
+    <color name="modeColor">#FFFFFFFF</color>
+    <color name="drawableModeColor">#FF000000</color>
     <color name="lineColor">#9B9A9A</color>
 
 </resources>
