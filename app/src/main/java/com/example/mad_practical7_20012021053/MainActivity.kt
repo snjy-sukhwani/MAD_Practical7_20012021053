@@ -97,12 +97,10 @@ class MainActivity : AppCompatActivity() {
                 millisTime,
                 pendingIntent
             )
-            // Toast.makeText(this,"Start Alarm", Toast.LENGTH_SHORT).show()
 
         } else if (str == "Stop") {
             alarmManager.cancel(pendingIntent)
             sendBroadcast(intent)
-            // Toast.makeText(this,"Stop Alarm", Toast.LENGTH_SHORT).show()
 
         }
     }
@@ -112,7 +110,6 @@ class MainActivity : AppCompatActivity() {
         setcalendar[Calendar.HOUR_OF_DAY] = hour
         setcalendar[Calendar.MINUTE] = min
         setcalendar[Calendar.SECOND] = 0
-        // Toast.makeText(this,setcalendar.toString(),Toast.LENGTH_LONG).show()
 
 
         return setcalendar.timeInMillis
