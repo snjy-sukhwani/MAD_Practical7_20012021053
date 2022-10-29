@@ -47,9 +47,9 @@ class MainActivity : AppCompatActivity() {
                     }
                     hourOfDay > 12 -> {
                         if (minute < 10) {
-                            "${hourOfDay - 12}:0${minute} pm"
+                            "0${hourOfDay - 12}:0${minute} pm"
                         } else {
-                            "${hourOfDay - 12}:${minute} pm"
+                            "0${hourOfDay - 12}:${minute} pm"
                         }
                     }
                     hourOfDay == 12 -> {
